@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Local Weather</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+        <link rel = "stylesheet" href ="dist/wu-icons-style.css">
+    </head>
+    <body style = "background-color: #1a293c">
+        <h1 id = "header" class = "center">
+        Local Weather App
+        </h1>
+        <div class = "center">
+            <i id = "icon" class = "wu wu-white wu-128 center">
+
+            </i>
+        </div>
+        <h3 id = "location" class = "center"></h3>
+
+        <h4 class = "center weathertext" style = "color: #1ac6ff">
+           <spen id = "temp"></spen><span id = "weather"></span> 
+        </h4>
+
+        <div class = "text-center">
+            <button type = "Button" class = "btn btn-info" onclick="changeUnits()">
+                &#8457/&#8451
+            </button>
+        </div>
+
+        
+
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+        
+    </body>
+</html>

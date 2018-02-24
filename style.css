@@ -1,0 +1,30 @@
+.center {
+	/*display: block;
+	margin-right: auto;
+	margin-left: auto;*/
+	text-align: center;
+}
+
+#header {
+	color: #1ac6ff;
+	padding-top: 50px;
+}
+
+#weathertext {
+	color: #1ac6ff;
+}
+
+#temp {
+	color: #1ac6ff;
+}
+
+#location {
+	color: #1ac6ff;
+}
+
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
