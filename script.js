@@ -1,6 +1,5 @@
 var key = "appid=bcfcb4887062b736e59529453432ed87";
 var api = "http://api.openweathermap.org/data/2.5/weather?";
-var units = "imperial";
 var far;
 var cel;
 var temp;
